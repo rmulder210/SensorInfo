@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SensorInfo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="TYPE_MAGNETIC_FIELD">TYPE_MAGNETIC_FIELD</string>
+    <string name="TYPE_ACCELEROMETER">TYPE_ACCELEROMETER</string>
+    <string name="TYPE_AMBIENT_TEMPERATURE">TYPE_AMBIENT_TEMPERATURE</string>
+    <string name="TYPE_GRAVITY">TYPE_GRAVITY</string>
+    <string name="TYPE_GYROSCOPE">TYPE_GYROSCOPE</string>
+    <string name="TYPE_LIGHT">TYPE_LIGHT</string>
+    <string name="TYPE_LINEAR_ACCELERATION">TYPE_LINEAR_ACCELERATION</string>
+    <string name="TYPE_ORIENTATION">TYPE_ORIENTATION</string>
+    <string name="TYPE_PRESSURE">TYPE_PRESSURE</string>
+    <string name="TYPE_PROXIMITY">TYPE_PROXIMITY</string>
+    <string name="TYPE_RELATIVE_HUMIDITY">TYPE_RELATIVE_HUMIDITY</string>
+    <string name="TYPE_ROTATION_VECTOR">TYPE_ROTATION_VECTOR</string>
+    <string name="btnStart">Start</string>
+    <string name="title_activity_pressure">PressureActivity</string>
+    <string name="defaultPresssure">... hPa</string>
+    <string name="title_activity_accelerometer">AccelerometerActivity</string>
+    <string name="lbdx">Delta X :</string>
+    <string name="lbdy">Delta Y :</string>
+    <string name="lbdz">Delta Z :</string>
+</resources>

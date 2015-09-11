@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0">
+
+            <TableLayout
+                android:id="@+id/tlSensors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <TableRow
+                    android:id="@+id/trTYPE_MAGNETIC_FIELD"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_MAGNETIC_FIELD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_MAGNETIC_FIELD" />
+
+                    <Button
+                        android:id="@+id/btTYPE_MAGNETIC_FIELD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_ACCELEROMETER"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_ACCELEROMETER"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_ACCELEROMETER" />
+
+                    <Button
+                        android:id="@+id/btTYPE_ACCELEROMETER"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_AMBIENT_TEMPERATURE"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_AMBIENT_TEMPERATURE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_AMBIENT_TEMPERATURE" />
+
+                    <Button
+                        android:id="@+id/btTYPE_AMBIENT_TEMPERATURE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_GRAVITY"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_GRAVITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_GRAVITY" />
+
+                    <Button
+                        android:id="@+id/btTYPE_GRAVITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_GYROSCOPE"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_GYROSCOPE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_GYROSCOPE" />
+
+                    <Button
+                        android:id="@+id/btTYPE_GYROSCOPE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_LIGHT"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_LIGHT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_LIGHT" />
+
+                    <Button
+                        android:id="@+id/btTYPE_LIGHT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_LINEAR_ACCELERATION"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_LINEAR_ACCELERATION"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_LINEAR_ACCELERATION" />
+
+                    <Button
+                        android:id="@+id/btTYPE_LINEAR_ACCELERATION"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_ORIENTATION"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_ORIENTATION"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_ORIENTATION" />
+
+                    <Button
+                        android:id="@+id/btTYPE_ORIENTATION"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_PRESSURE"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_PRESSURE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_PRESSURE" />
+
+                    <Button
+                        android:id="@+id/btTYPE_PRESSURE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_PROXIMITY"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_PROXIMITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_PROXIMITY" />
+
+                    <Button
+                        android:id="@+id/btTYPE_PROXIMITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_RELATIVE_HUMIDITY"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_RELATIVE_HUMIDITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_RELATIVE_HUMIDITY" />
+
+                    <Button
+                        android:id="@+id/btTYPE_RELATIVE_HUMIDITY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/trTYPE_ROTATION_VECTOR"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLbTYPE_ROTATION_VECTOR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_gravity="left"
+                        android:padding="4dp"
+                        android:text="@string/TYPE_ROTATION_VECTOR" />
+
+                    <Button
+                        android:id="@+id/btTYPE_ROTATION_VECTOR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:text="@string/btnStart" />
+                </TableRow>
+
+
+            </TableLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
